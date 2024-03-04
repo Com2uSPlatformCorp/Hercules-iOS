@@ -1,0 +1,71 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Hercules",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "cHercules",
+        "printedName": "cHercules",
+        "declKind": "Import",
+        "moduleName": "Hercules"
+      },
+      {
+        "kind": "Import",
+        "name": "HIVEService",
+        "printedName": "HIVEService",
+        "declKind": "Import",
+        "moduleName": "Hercules"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/jenkins\/JenkinAgent\/workspace\/Publish_iOS_HiveSDK_CocoaPods\/100.SDK\/210.Hercules\/Sources\/Hercules.swift",
+      "kind": "StringLiteral",
+      "offset": 444,
+      "length": 31,
+      "value": "\"[Hercules] initialize called.\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/JenkinAgent\/workspace\/Publish_iOS_HiveSDK_CocoaPods\/100.SDK\/210.Hercules\/Sources\/Hercules.swift",
+      "kind": "StringLiteral",
+      "offset": 659,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/JenkinAgent\/workspace\/Publish_iOS_HiveSDK_CocoaPods\/100.SDK\/210.Hercules\/Sources\/Hercules.swift",
+      "kind": "StringLiteral",
+      "offset": 1028,
+      "length": 32,
+      "value": "\"[Hercules] setDeviceId called.\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/JenkinAgent\/workspace\/Publish_iOS_HiveSDK_CocoaPods\/100.SDK\/210.Hercules\/Sources\/Hercules.swift",
+      "kind": "StringLiteral",
+      "offset": 1235,
+      "length": 32,
+      "value": "\"[Hercules] setPlayerId called.\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/JenkinAgent\/workspace\/Publish_iOS_HiveSDK_CocoaPods\/version.swift",
+      "kind": "StringLiteral",
+      "offset": 21,
+      "length": 10,
+      "value": "\"4.23.0.0\""
+    }
+  ]
+}

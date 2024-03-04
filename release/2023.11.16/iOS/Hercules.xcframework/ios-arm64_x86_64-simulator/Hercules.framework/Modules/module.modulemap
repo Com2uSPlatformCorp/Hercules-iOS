@@ -1,0 +1,11 @@
+framework module Hercules {
+  umbrella header "Hercules.h"
+  export *
+
+  module * { export * }
+}
+
+module Hercules.Swift {
+  header "Hercules-Swift.h"
+  requires objc
+}
