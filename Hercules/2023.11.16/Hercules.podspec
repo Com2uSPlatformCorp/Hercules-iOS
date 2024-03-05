@@ -11,18 +11,15 @@ Pod::Spec.new do |s|
 
   s.author       = { "Com2usPlatrformCorp" => "gamesec@com2us.com" }
   s.platform     = :ios, "12.0"
-  s.swift_version = "5.0"
 
   s.source       = { 
     :http => "https://github.com/Com2uSPlatformCorp/Hercules-iOS/releases/download/#{s.version}/Hercules_#{s.version}.zip"
   }
 
-  $vendored_frameworks_path = "Hercules"
-  s.vendored_frameworks =  "#{$vendored_frameworks_path}/Hercules.xcframework"
+  s.vendored_frameworks =  "Hercules.xcframework"
   s.static_framework = true
 
   s.user_target_xcconfig = {
     "OTHER_LDFLAGS[sdk=*]": "-framework UIKit -framework WebKit -framework QuartzCore",
   }
-
 end
