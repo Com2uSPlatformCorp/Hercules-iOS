@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.vendored_frameworks =  "Hercules.xcframework"
   s.static_framework = true
 
-  s.user_target_xcconfig = {
-    "OTHER_LDFLAGS[sdk=*]": "-framework UIKit -framework WebKit -framework QuartzCore",
-  }
+  #s.user_target_xcconfig = {
+  #  "OTHER_LDFLAGS[sdk=*]": "-framework UIKit -framework WebKit -framework QuartzCore -framework CFNetwork",
+  #}
 end
