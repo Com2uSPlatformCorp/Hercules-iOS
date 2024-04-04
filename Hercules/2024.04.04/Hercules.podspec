@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "Hercules"
-  s.version      = "2024.01.23"
+  s.version      = "2024.04.04"
   s.summary      = "Hercules optional framework"
   s.description  = "Hercules security framework provided with Hive SDK"
   s.homepage     = "https://developers.withhive.com/"
@@ -17,9 +17,10 @@ Pod::Spec.new do |s|
   }
 
   s.vendored_frameworks =  "Hercules.xcframework"
+  s.resource_bundles = {"HerculesPrivacyInfo" => ["Hercules.xcframework/ios-arm64/Hercules.framework/PrivacyInfo.xcprivacy"]}
   s.static_framework = true
 
   s.user_target_xcconfig = {
-    "OTHER_LDFLAGS[sdk=*]": "-framework UIKit -framework WebKit -framework QuartzCore",
+    "OTHER_LDFLAGS[sdk=*]": "-framework UIKit -framework WebKit -framework QuartzCore -framework CFNetwork",
   }
 end

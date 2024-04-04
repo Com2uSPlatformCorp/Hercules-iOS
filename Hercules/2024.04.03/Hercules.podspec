@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
     :file => "#{Dir.pwd}/../../LICENSE"
   }
 
-  s.author       = { "Com2usPlatrformCorp" => "gamesec@com2us.com" }
+  s.author       = { "Com2uSPlatformCorp" => "gamesec@com2us.com" }
   s.platform     = :ios, "12.0"
 
   s.source       = { 
