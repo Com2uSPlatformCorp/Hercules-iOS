@@ -17,8 +17,7 @@ Pod::Spec.new do |s|
   }
 
   s.vendored_frameworks =  "Hercules.xcframework"
-  s.module_map = "module.modulemap"
-  s.resource_bundles = {"HerculesPrivacyInfo" => ["Hercules.xcframework/ios-arm64/Hercules.framework/PrivacyInfo.xcprivacy"]}
+  s.resource_bundles = {"Hercules" => ["Hercules.xcframework/ios-arm64/Hercules.framework/PrivacyInfo.xcprivacy"]}
   s.static_framework = true
 
   s.user_target_xcconfig = {
