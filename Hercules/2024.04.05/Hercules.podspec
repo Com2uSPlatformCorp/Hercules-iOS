@@ -20,8 +20,5 @@ Pod::Spec.new do |s|
   s.module_map = "module.modulemap"
   s.resource_bundles = {"Hercules" => ["Hercules.xcframework/ios-arm64/Hercules.framework/PrivacyInfo.xcprivacy"]}
   s.static_framework = true
-
-  s.user_target_xcconfig = {
-    "OTHER_LDFLAGS[sdk=*]": "-framework UIKit -framework WebKit -framework QuartzCore -framework CFNetwork",
-  }
+  s.frameworks = 'CFNetwork', 'UIKit', 'WebKit', 'QuartzCore'
 end
